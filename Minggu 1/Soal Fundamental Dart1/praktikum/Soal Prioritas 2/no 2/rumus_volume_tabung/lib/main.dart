@@ -6,5 +6,6 @@ void main() {
   int tinggi_tabung = 50;
   double rumus_volume_tabung = (22 / 7 * jarijari * jarijari) * tinggi_tabung;
 
+  stdout.writeln('jarijari = $jarijari');
   stdout.write('volume tabung = $rumus_volume_tabung');
 }

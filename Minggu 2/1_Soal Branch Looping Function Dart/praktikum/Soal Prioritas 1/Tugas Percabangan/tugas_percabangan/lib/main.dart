@@ -13,7 +13,7 @@ void main() {
   if (nilai > 70) {
     stdout.write('Nilai A');
   } else if (nilai > 40) {
-    stdout.write('Nilai C');
+    stdout.write('Nilai B');
   } else if (nilai > 0) {
     stdout.write('Nilai C');
   } else {

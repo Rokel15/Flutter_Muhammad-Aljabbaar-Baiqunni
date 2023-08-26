@@ -6,8 +6,6 @@
 // Sampel Input: [JS Racing, amuse, spoon, spoon, JS Racing, amuse]`
 // Sampel Output: [JS Racing, amuse, spoon]
 
-import 'dart:convert';
-
 void main() {
   List input = [
     'amuse',

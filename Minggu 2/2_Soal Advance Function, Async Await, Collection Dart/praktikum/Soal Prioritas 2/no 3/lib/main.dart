@@ -1,3 +1,7 @@
+// 3. Buatlah sebuah program untuk melakukan perhitungan bilangan faktorial secara asinkron.
+// Sampel Input: 5
+// Sampel Output: 120
+
 void main() {
   int input = 7;
   print('angka input : $input');

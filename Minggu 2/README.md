@@ -4,11 +4,11 @@
 
 contoh if(nilai_bool){
   
-    //proses
+  //proses
 
 } else {
 
-    // proses
+  // proses
 
 }
 

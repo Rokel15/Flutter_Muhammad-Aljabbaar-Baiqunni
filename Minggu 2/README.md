@@ -3,8 +3,12 @@
 1. If - Eelse If - Else merupakan percabangan yang memeriksa nilai bool dari operator logical ataupun comparison, apabila nilai bernilai true maka proses akan dijalankan jika tidak maka akan proses akan dilempar ke yang lain.
 
 contoh if(nilai_bool){
+  
   //proses
+
 } else {
+
   // proses
+
 }
 

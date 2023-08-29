@@ -33,3 +33,27 @@ contoh while do
 
 # Resume Materi KMFlutter – Advance Function – Async-Await – Collection
 ## Tuliskan 3 poin yang dipelajari dari materi tersebut. Resume / ringkasan materi dapat disubmit melalui Github, sesuai intruksi yang ada di link berikut [LINK](https://cobalt-bike-c9e.notion.site/Cara-Pengumpulan-2b2224b8ba0b4dd78774084a65c0154d)
+1. anonymus function, memiliki format
+
+         (){}
+dapat disimpan dalam variabel, contoh
+
+         var hello = (){}
+
+2. async await adalah cara untuk menjalankan suatu  proses dengan syncron, 
+
+         void main() async{
+            WidgetsFlutterBinding.ensureInitialized();
+            await DB.init();
+            runApp(...);
+         }
+
+3. collection pada dart berupa List dan Map, berfungsi untuk menampung data
+
+   contoh List
+
+         List<int> angka = [1,2,3,4,5,6,7,8,9,0];  //bisa diisi dengan tipe String
+
+   contoh Map
+
+         Map map = {'satu' : 1, 'dua' : 2}

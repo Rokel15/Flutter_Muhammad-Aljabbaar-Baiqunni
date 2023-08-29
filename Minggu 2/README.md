@@ -29,3 +29,7 @@ contoh while do
          }
 
 3. break don continue adlah cara untuk melakukan pemberhentian proses perulangan, perbedan yang ada pada continue adalah hanya menghentkan satu kali proses dan akan dilanjut lagi. break adalah menghentikan proses perulangan secara keseluruhan
+
+
+# Resume Materi KMFlutter – Advance Function – Async-Await – Collection
+## Tuliskan 3 poin yang dipelajari dari materi tersebut. Resume / ringkasan materi dapat disubmit melalui Github, sesuai intruksi yang ada di link berikut [LINK](https://cobalt-bike-c9e.notion.site/Cara-Pengumpulan-2b2224b8ba0b4dd78774084a65c0154d)

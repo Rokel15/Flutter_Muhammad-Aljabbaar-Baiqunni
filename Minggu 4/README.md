@@ -12,4 +12,8 @@
    - flutter clean
 
 2. Package pada flutter berfungsi untuk mempercepat pengembangan aplikasi
-3. wefwefwe
+3. Cara memasang package
+   - unduh package yang dibutuhkan di pub.dev
+   - copy package
+   - paste ke pubspec.yaml
+   - jalankan flutter pub add atau flutter pub get

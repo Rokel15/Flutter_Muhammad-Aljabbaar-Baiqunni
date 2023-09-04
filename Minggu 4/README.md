@@ -1,12 +1,6 @@
 # Resume Materi KMFlutter – Installation – Command Line Interface
 ## Tuliskan 3 poin yang dipelajari dari materi tersebut. Resume / ringkasan materi dapat disubmit melalui Github, sesuai intruksi yang ada di link berikut [LINK](https://cobalt-bike-c9e.notion.site/Cara-Pengumpulan-2b2224b8ba0b4dd78774084a65c0154d)
-1. class adalah abstraksi dari sebuah objek, artinya objek akan mewakili dari suatu class dan dspat menggunkanan atribut-atribut dan methos-methodnya
-
-contoh class
-
-    Class Kucing{
-      //...
-    }
+1. Flutter CLI adalah cara untuk berkomunikasi dnegan sdk
 2. atribut pada suatu class berupa variabel
 
 contoh atribut pada suatu class

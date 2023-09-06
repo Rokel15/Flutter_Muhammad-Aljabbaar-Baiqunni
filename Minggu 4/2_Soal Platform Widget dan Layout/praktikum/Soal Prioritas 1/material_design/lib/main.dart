@@ -50,9 +50,6 @@ class _MainPage extends State<MainPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      // appBar: AppBar(
-      //   title: Text('MaterialApp'),
-      // ),
       bottomNavigationBar: BottomNavigationBar(
         items: <BottomNavigationBarItem>[
           BottomNavigationBarItem(
@@ -68,8 +65,6 @@ class _MainPage extends State<MainPage> {
         onTap: onPage,
       ),
       body: Pages.elementAt(selectIndex),
-      // appBar: AppBar(),
-      // body: Center(),
     );
   }
 }

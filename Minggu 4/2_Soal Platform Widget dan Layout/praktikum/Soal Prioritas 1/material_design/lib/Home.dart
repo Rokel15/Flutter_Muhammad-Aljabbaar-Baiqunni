@@ -23,7 +23,7 @@ class _HomeState extends State<Home> {
             Padding(
               padding: const EdgeInsets.only(top: 20, left: 15, right: 15, bottom: 10),
               child: Text(
-                'Contact Lists',
+                'Contact List',
                 style: GoogleFonts.openSans(
                   textStyle: TextStyle(
                     fontSize: 20,

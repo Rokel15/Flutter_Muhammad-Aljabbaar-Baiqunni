@@ -54,7 +54,7 @@ class _MainPageState extends State<MainPage> {
         centerTitle: true,
         actions: [
           Padding(
-            padding: const EdgeInsets.only(right: 13),
+            padding: const EdgeInsets.only(right: 10),
             child: Icon(Icons.search),
           )
         ],

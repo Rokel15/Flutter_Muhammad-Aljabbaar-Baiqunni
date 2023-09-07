@@ -56,9 +56,9 @@ class _FirstPageState extends State<FirstPage> {
       navigationBar: CupertinoNavigationBar(
         middle: Text('CupertinoApp'),
       ),
-      child: ListView(
-
-      ),
+      child: Center(
+        child: Text('This is CupertinoApp'),
+      )
 
     );
   }

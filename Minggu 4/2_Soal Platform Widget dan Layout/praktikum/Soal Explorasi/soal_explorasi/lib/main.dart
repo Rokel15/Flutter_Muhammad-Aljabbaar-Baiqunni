@@ -80,6 +80,14 @@ class _MainPageState extends State<MainPage> {
         fixedColor: Colors.white,
       ),
       body: Pages.elementAt(selectedIndex),
+      floatingActionButton: FloatingActionButton(
+        child: Icon(
+          Icons.add,
+          color: Colors.black,
+        ),
+        onPressed: (){},
+        backgroundColor: Color(0xff03DAC5),
+      ),
     );
   }
 }

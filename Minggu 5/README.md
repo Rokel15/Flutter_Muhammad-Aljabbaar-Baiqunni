@@ -18,4 +18,6 @@
 ## Tuliskan 3 poin yang dipelajari dari materi tersebut. Resume / ringkasan materi dapat disubmit melalui Github, sesuai intruksi yang ada di link berikut [LINK](https://cobalt-bike-c9e.notion.site/Cara-Pengumpulan-2b2224b8ba0b4dd78774084a65c0154d)
 1. Date Picker adalah widget dari flutter bertujuan agar pengguna aplikasi dapat memilih tanggal untuk tujuan tertentu.
 
-2.  Color Picker adalah widget dengan tujuan agar pengguna aplikasi dapat memilih warna untuk tujuan tertentu. Untuk dapat menggunakan color picker maka pembuat aplikasi harus menambahkan dependencies 
+2.  Color Picker adalah widget dengan tujuan agar pengguna aplikasi dapat memilih warna untuk tujuan tertentu. Untuk dapat menggunakan color picker maka pembuat aplikasi harus menambahkan package flutter_colorpicker
+
+3.  File picker adalah package yang berguna agar penggguna aplikasi dapat mengambil gambar dari storage lokal, 

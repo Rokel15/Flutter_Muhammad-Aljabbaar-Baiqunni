@@ -9,8 +9,8 @@ class PutPage extends StatefulWidget {
 }
 
 class _PutPageState extends State<PutPage>{
-  TextEditingController nameController = TextEditingController();
-  TextEditingController phoneController = TextEditingController();
+  TextEditingController titleController = TextEditingController();
+  TextEditingController bodyController = TextEditingController();
   var data = 'no data';
 
   @override
@@ -26,8 +26,8 @@ class _PutPageState extends State<PutPage>{
 
   @override
   void dispose() {
-    nameController.dispose();
-    phoneController.dispose();
+    titleController.dispose();
+    bodyController.dispose();
     super.dispose();
   }
 
@@ -41,9 +41,9 @@ class _PutPageState extends State<PutPage>{
           Padding(
             padding: const EdgeInsets.only(top: 20, left: 15, right: 15),
             child: TextFormField(
-              controller: nameController,
+              controller: titleController,
               decoration: InputDecoration(
-                  hintText: 'name',
+                  hintText: 'title',
                   border: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(13),
                   )
@@ -55,9 +55,9 @@ class _PutPageState extends State<PutPage>{
           Padding(
             padding: const EdgeInsets.only(top: 20, left: 15, right: 15, bottom: 10),
             child: TextFormField(
-              controller: phoneController,
+              controller: bodyController,
               decoration: InputDecoration(
-                  hintText: 'phone',
+                  hintText: 'body',
                   border: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(13),
                   )
@@ -78,15 +78,15 @@ class _PutPageState extends State<PutPage>{
                   // final data = DioServices().
                   setState(() async{
                     final data = await DioServices().updateContact(
-                        name: nameController.text,
-                        phone: phoneController.text
+                        title: titleController.text,
+                        body: bodyController.text
                     );
 
                     setState(() {
                       this.data = data.toString();
                     });
-                    nameController.text = '';
-                    phoneController.text = '';
+                    titleController.text = '';
+                    bodyController.text = '';
                   });
                 },
               ),

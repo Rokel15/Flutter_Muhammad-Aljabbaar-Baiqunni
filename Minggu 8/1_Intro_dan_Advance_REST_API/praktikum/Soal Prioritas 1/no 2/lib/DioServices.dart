@@ -6,7 +6,7 @@ class DioServices{
   Future fetchData() async{
     try{
       final Response response = await dio.get(
-        'https://my-json-server.typicode.com/hadihammurabi/flutter-webservice/contacts/2',
+        'https://jsonplaceholder.typicode.com/posts/1',
       );
 
       return response.data;
@@ -16,15 +16,15 @@ class DioServices{
   }
 
   Future updateContact({
-    required String name,
-    required String phone
+    required String title,
+    required String body,
   }) async{
     try{
       final Response response = await dio.put(
-          'https://my-json-server.typicode.com/hadihammurabi/flutter-webservice/contacts/2',
+          'hhttps://jsonplaceholder.typicode.com/posts/1',
           data: {
-            'name' : name,
-            'phone' : phone,
+            'title' : title,
+            'body' : body,
           }
       );
 

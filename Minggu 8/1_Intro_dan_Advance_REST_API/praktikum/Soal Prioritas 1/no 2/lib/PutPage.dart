@@ -75,9 +75,8 @@ class _PutPageState extends State<PutPage>{
                   side: BorderSide(color: Colors.white)
                 ),
                 onPressed: () async{
-                  // final data = DioServices().
                   setState(() async{
-                    final data = await DioServices().updateContact(
+                    final data = await DioServices().updateData(
                         title: titleController.text,
                         body: bodyController.text
                     );

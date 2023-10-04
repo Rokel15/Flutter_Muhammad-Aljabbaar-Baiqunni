@@ -15,13 +15,13 @@ class DioServices{
     }
   }
 
-  Future updateContact({
+  Future updateData({
     required String title,
     required String body,
   }) async{
     try{
       final Response response = await dio.put(
-          'hhttps://jsonplaceholder.typicode.com/posts/1',
+          'https://jsonplaceholder.typicode.com/posts/1',
           data: {
             'title' : title,
             'body' : body,
